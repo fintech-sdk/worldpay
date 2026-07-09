@@ -36,8 +36,8 @@ defmodule Worldpay.Factory do
   end
 
   @spec plain_card() :: %{
-        required(String.t()) => term()
-      }
+          required(String.t()) => term()
+        }
   def plain_card do
     %{
       "type" => "card/plain",
